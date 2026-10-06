@@ -1,0 +1,13 @@
+node_modules/
+**/node_modules/
+client/dist/
+**/dist/
+server/data/
+*.db
+*.db-shm
+*.db-wal
+.env
+**/.env
+.env.*
+**/.env.*
+!server/.env.example

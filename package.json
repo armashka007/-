@@ -1,0 +1,13 @@
+{
+  "name": "skinvault-fullstack",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev -- --host 0.0.0.0\"",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev -- --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
